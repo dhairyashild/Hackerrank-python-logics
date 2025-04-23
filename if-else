@@ -1,0 +1,22 @@
+if                        :
+      print()
+elif                       :
+      p
+elif                       :
+      p
+else:
+      pr
+
+
+
+
+
+
+n = int(input())
+
+if n % 2 == 1:
+    print("weird")
+elif n % 2 == 0 and 2 <= n <= 5:             # Number in range check by <= n <=                     # Error: '&' should be 'and'
+    print("Not weird")
+else:  # Error: Indentation needed
+    print("ok")
